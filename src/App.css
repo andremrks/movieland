@@ -102,7 +102,7 @@ h1 {
 
 .movie {
   width: 260px;
-  height: 400px;
+  height: 380px;
   margin: 1.5rem;
 
   position: relative;
@@ -139,6 +139,7 @@ h1 {
 }
 
 .movie div:nth-of-type(3) {
+  opacity: 0;
   z-index: 2;
   background-color: #343739;
   padding: 16px 24px 24px 24px;
@@ -170,6 +171,7 @@ h1 {
 }
 
 .movie:hover div:nth-of-type(3) {
+  opacity: 1;
   background-color: transparent;
 }
 
